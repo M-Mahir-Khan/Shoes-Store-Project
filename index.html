@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIKE</title>
+  <link rel="shorcut icon"
+  href="https://i.pinimg.com/736x/55/f6/8e/55f68e1fbbfb3a97de3447dea15fbe28.jpg">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./Css/style.css">
+  <link rel="stylesheet" href="./Css/responsive.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navigation-wrap">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./Images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/cloths.html">Clothing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li><button class="main-btn">1200 345 123</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- section-1 top-banner -->
+  <section class="hero-section my-5" id="home">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="hero-section-content col-lg-6 col-md-12">
+          <h1 class="hero-heading my-5">
+            NIKE COLLECTION
+          </h1>
+          <div class="hero-para">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, ipsum. Odit, asperiores alias! Accusamus
+              dignissimos quidem quas odio odit voluptate, enim architecto doloribus reprehenderit repellendus
+              distinctio cupiditate. Officiis earum vero culpa, natus alias ea eius debitis totam et sed non similique
+              aperiam, sit quis in laboriosam modi. Fugit accusantium corporis dolore dolores quidem consectetur quaerat
+              odio distinctio, error voluptatibus voluptatem!</p>
+          </div>
+        </div>
+        <div class="hero-section-img col-lg-6 col-md-12">
+          <img src="./Images/shoes1.png" alt="Nike Shoes" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section-2 top-banner -->
+  <section class="top-shoes">
+    <h1 class="hero-heading text-center mb-5">
+      TOP SHOES
+    </h1>
+    <div class="home-section mb-5">
+      <div class="circle-container">
+        <div class="circle-menu">
+          <div class="menu-item" id="item1"><img src="./Images/shoes1.png" alt=""></div>
+          <div class="menu-item" id="item2"><img src="./Images/shoes2.png" alt=""></div>
+          <div class="menu-item" id="item3"><img src="./Images/shoes6.png" alt=""></div>
+          <div class="menu-item" id="item4"><img src="./Images/shoes5.png" alt=""></div>
+        </div>
+      </div>
+      <div class="slider-container mt-5">
+        <div class="container">
+          <div class="slider">
+            <div id="slides">
+              <img src="./Images/shoes2.png" class="img">
+              <img src="./Images/shoes1.png" class="img">
+              <img src="./Images/shoes5.png" class="img">
+              <img src="./Images/shoes6.png" class="img">
+            </div>
+          </div>
+          <div class="buttons">
+            <button id="prev" class="main-btn">Previous</button>
+            <button id="next" class="main-btn">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section-3 Counter -->
+  <section id="counter">
+    <section class="counter-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2 class="text-white">
+              <span id="count1"></span>+
+            </h2>
+            <p>SAVINGS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2 class="text-white">
+              <span id="count2"></span>+
+            </h2>
+            <p>PHOTOS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2 class="text-white">
+              <span id="count3"></span>+
+            </h2>
+            <p>ROCKETS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2 class="text-white">
+              <span id="count4"></span>+
+            </h2 class="text-white">
+            <p>GLODES</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- section-4 products -->
+  <section id="products">
+    <div class="container-fluid mt-5">
+      <h1 class="hero-heading text-center sm-mt-5">
+        Products
+      </h1>
+      <div class="row justify-content-center m-0 mt-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+          <div class="card my-3">
+            <div class="product-img">
+              <img src="./Images/shoes1.png" alt="">
+            </div>
+            <div class="card-text">
+              <h2>NIKE</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3>$100.50</h3>
+              <div class="product-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <button class="main-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+          <div class="card my-3">
+            <div class="product-img">
+              <img src="./Images/shoes2.png" alt="">
+            </div>
+            <div class="card-text">
+              <h2>NIKE</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3>$100.50</h3>
+              <div class="product-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <button class="main-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+          <div class="card my-3">
+            <div class="product-img">
+              <img src="./Images/shoes9.png" alt="">
+            </div>
+            <div class="card-text">
+              <h2>NIKE</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3>$100.50</h3>
+              <div class="product-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <button class="main-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+          <div class="card my-3">
+            <div class="product-img">
+              <img src="./Images/shoes5.png" alt="">
+            </div>
+            <div class="card-text">
+              <h2>NIKE</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3>$100.50</h3>
+              <div class="product-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <button class="main-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center m-0 mt-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+          <div class="card my-3">
+            <div class="product-img">
+              <img src="./Images/shoes6.png" alt="">
+            </div>
+            <div class="card-text">
+              <h2>NIKE</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3>$100.50</h3>
+              <div class="product-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+
+              </div>
+              <button class="main-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+          <div class="card my-3">
+            <div class="product-img">
+              <img src="./Images/shoes3.png" alt="">
+            </div>
+            <div class="card-text">
+              <h2>NIKE</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3>$100.50</h3>
+              <div class="product-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <button class="main-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+          <div class="card my-3">
+            <div class="product-img">
+              <img src="./Images/shoes7.png" alt="">
+            </div>
+            <div class="card-text">
+              <h2>NIKE</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3>$100.50</h3>
+              <div class="product-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <button class="main-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+          <div class="card my-3">
+            <div class="product-img">
+              <img src="./Images/shoes8.png" alt="">
+            </div>
+            <div class="card-text">
+              <h2>NIKE</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3>$100.50</h3>
+              <div class="product-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <button class="main-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section-5 Shoes-view -->
+  <section id="shoes-view">
+    <div class="container mt-5">
+      <h1 class="hero-heading text-center sm-mt-5">
+        NEW ARTICLE
+      </h1>
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-8 col-md-12 col-sm-12 d-flex  flex-column flex-lg-row">
+          <div class="side-img-container">
+            <img src="Images/img-view-shoes/shoe1.png" alt="">
+            <img src="./Images/img-view-shoes/shoe2.png" alt="">
+            <img src="./Images/img-view-shoes/shoe3.png" alt="">
+            <img src="./Images/img-view-shoes/shoe4.png" alt="">
+            <img src="./Images/img-view-shoes/shoe5.png" alt="">
+          </div>
+          <div class="img-view-container p-4">
+            <img src="./Images/img-view-shoes/shoe1.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 my-5 ">
+          <div class="side-content">
+            <h2>We pride ourselves on making real shoes from the best febrics</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias minus nemo voluptatum ad, a ab qui
+              sapiente
+              nam maxime debitis tenetur quod voluptas.</p>
+            <button class="main-btn mt-4">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- section-6 Testimonial -->
+  <section id="testimonial">
+    <div class="wrapper testimonial-section">
+      <div class="container text-center">
+        <div class="text-center pb-4">
+          <h2>Testimonial</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-lg-10 offset-lg-1">
+            <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                  area-current="true" area-lable="slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                  area-lable="slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                  area-lable="slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-caption">
+                    <img src="./Images/review/review-1.jpg">
+                    <p>"Far far away, behind the word mountains, far from the countries Vokalia and consonatia, there
+                      live the blind texts. "</p>
+                    <h5>Johnthan Doe - Ux Designer</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img src="./Images/review/review-2.jpg">
+                    <p>"Far far away, behind the word mountains, far from the countries Vokalia and consonatia, there
+                      live the blind texts. "</p>
+                    <h5>Maccy Doe - Front End</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img src="./Images/review/review-1.jpg">
+                    <p>"Far far away, behind the word mountains, far from the countries Vokalia and consonatia, there
+                      live the blind texts. "</p>
+                    <h5>Johnthan Doe - Ux Designer</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      <!-- section-7 FAQs -->
+  <section id="faq">
+    <div class="faq wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-center pb-4">
+              <h2>Frequantly Asked qusetions</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-sm-6 mb-4">
+            <h4><span>~</span> What is the return policy?</h4>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and consonatia, there
+              live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+              language</p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Do you offer free shipping?</h4>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and consonatia, there
+              live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+              language</p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Can I cancel or change my order after it has been placed?</h4>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and consonatia, there
+              live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+              language</p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4><span>~</span>when are you opening a shop near me?</h4>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and consonatia, there
+              live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+              language</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section-8 book-food -->
+  <section id="book-food">
+    <div class="book-food">
+      <div class="container book-food-text">
+        <div class="row text-center">
+          <div class="col-lg-9 col-md-12 text-light">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
+          </div>
+          <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+            <button class="white-btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- section-9 Neslettar -->
+  <section id="newslettar">
+    <div class="newslettar wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-content text-center pb-4">
+              <h2 class="main-h2">Hurry up! Subscribe our newslettar and get 25% off</h2>
+              <p>Limited time offer for this month. No credit card required</p>
+            </div>
+            <form class="newsletter">
+              <div class="row">
+                <div class="col-md-8 col-12">
+                  <input type="email" class="form-control" placeholder="Email Address here" name="email">
+                </div>
+                <div class="col-md-4 col-12">
+                  <button class="main-btn" type="submit">Subscribe</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- section-10 Footer-->
+  <section id="footer">
+    <div class="footer py-5">
+      <div class="container">
+        <h2 class="main-h2 text-center text-light my-5">Our page has come to an end, but our relationship with you has
+          not.</h2>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a href="#" class="footer-link">Registe</a>
+            <a href="#" class="footer-link">Forum</a>
+            <a href="#" class="footer-link">Affiliate</a>
+            <a href="#" class="footer-link">FAQ</a>
+            <div class="footer-social pt-4 text-center">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="footer-copy">
+              <div class="copy-right text-center pt-5">
+                <p class="text-light"> © 2021. Foodies all rights reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Javascript -->
+  <script src="./Js/script.js"></script>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
