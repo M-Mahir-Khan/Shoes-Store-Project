@@ -276,6 +276,12 @@ p {
 }
 
 .hero-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-heading div{
     font-size: 4rem;
     margin-bottom: 20px;
     background: linear-gradient(to right, #FE1C71, #F89827);
@@ -283,7 +289,7 @@ p {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-
+    margin: 10px;
 }
 
 .hero-para p {
@@ -756,4 +762,17 @@ p {
 #cloths .card:hover .card-text-hidden{
     display: none;
 
+}
+
+/* Animations */
+.leFlyInTop span { animation-name: leFlyInTop }
+@keyframes leFlyInTop {
+    0% {
+        transform: translate(0px, -80px);
+        opacity: 0
+    }
+    50% {
+        transform: translate(10px, 50px);
+        animation-timing-function: ease-in-out
+    }
 }

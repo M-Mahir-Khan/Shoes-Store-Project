@@ -104,3 +104,6 @@ images.forEach((item, index) => {
 
 // Cloths effect 
 
+AOS.init({
+  duration: 1000, // Animation duration in milliseconds
+});
